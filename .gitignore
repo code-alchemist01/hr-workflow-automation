@@ -1,0 +1,94 @@
+# API Keys and Secrets
+**/appsettings.Development.json
+**/appsettings.Production.json
+**/.env
+**/.env.local
+**/secrets.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+
+# API Keys in code (backup check)
+*api_key*
+*API_KEY*
+*secret*
+*SECRET*
+*password*
+*PASSWORD*
+
+# Video and Audio Files
+*.mp4
+*.avi
+*.mov
+*.wav
+*.mp3
+*.m4a
+
+# Temporary Files
+*.tmp
+*.temp
+temp_*.jpg
+temp_*.png
+gecici_*.wav
+extracted_audio.wav
+
+# Output Files (optional - uncomment if you don't want to commit outputs)
+# *.docx
+# *.txt
+# analiz_sonucu.*
+# mulakat_transkripti.*
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.dll
+*.pdb
+
+# Build outputs
+dist/
+build/
+*.exe
+*.dll
+

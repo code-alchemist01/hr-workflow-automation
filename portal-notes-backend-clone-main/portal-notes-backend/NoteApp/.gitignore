@@ -1,0 +1,84 @@
+# ===================================================================
+# Visual Studio / .NET için Standart .gitignore Şablonu
+# ===================================================================
+
+## Kullanıcıya Özel Ayarlar
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Visual Studio Tools for Office (VSTO)
+.manifest
+.vsto
+
+## Visual Studio Kod Analizi ve Test
+*.CodeAnalysisLog.xml
+*.lastcodeanalysissucceeded
+*.sarif
+*.testsettings
+
+## Build Çıktıları (Derleme Sonucu Oluşan Dosyalar)
+[Bb]in/
+[Dd]ebug/
+[Oo]bj/
+[Rr]elease/
+[Aa]rm/
+[Aa]rm64/
+[Xx]86/
+[Xx]64/
+[Ll]ogs/
+
+## NuGet Paketleri (Paketler yeniden yüklenebilir, depoda tutulmaz)
+packages/
+*.nupkg
+project.lock.json
+project.assets.json
+*.nuget.props
+*.nuget.targets
+
+## Geçici ve Yedek Dosyalar
+*.[Cc]ache
+*.orig
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.log
+*.vspscc
+*.vssscc
+.builds
+.vs/
+TestResults/
+
+## Rider, ReSharper gibi JetBrains araçları için
+_ReSharper*/
+*.[Rr]esharper
+*.DotSettings.user
+
+## VS Code için
+.vscode/
+
+## Publish Çıktıları (Yayınlama Sonucu Oluşan Dosyalar)
+publish/
+[Pp]ublish/
+[Ww]eb.config
+[Ww]eb.Debug.config
+[Ww]eb.Release.config
+*.publish.xml
+
+## Gizli ve Hassas Bilgiler
+# Not: Bu dosyalar genellikle geliştirme ortamına özeldir ve asla paylaşılmamalıdır.
+# Eğer varsa, aşağıdaki satırların başındaki '#' işaretini kaldır.
+# appsettings.Development.json
+# secrets.json
